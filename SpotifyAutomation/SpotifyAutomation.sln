@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotifyApiAutomation", "RestSharpSpot\SpotifyApiAutomation.csproj", "{15083DAE-4919-484E-986D-DEB22A68E133}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotifyWebAppAutomation", "SpotifyWebAppAutomation\SpotifyWebAppAutomation.csproj", "{EA0C4038-6482-4775-92D6-D8B4BF58D40B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotifyTest", "SpotifyTest\SpotifyTest.csproj", "{0D151C59-E363-49CD-B5E8-33B65DB42305}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15083DAE-4919-484E-986D-DEB22A68E133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15083DAE-4919-484E-986D-DEB22A68E133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15083DAE-4919-484E-986D-DEB22A68E133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15083DAE-4919-484E-986D-DEB22A68E133}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA0C4038-6482-4775-92D6-D8B4BF58D40B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA0C4038-6482-4775-92D6-D8B4BF58D40B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA0C4038-6482-4775-92D6-D8B4BF58D40B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA0C4038-6482-4775-92D6-D8B4BF58D40B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D151C59-E363-49CD-B5E8-33B65DB42305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D151C59-E363-49CD-B5E8-33B65DB42305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D151C59-E363-49CD-B5E8-33B65DB42305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D151C59-E363-49CD-B5E8-33B65DB42305}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E02B8059-B51A-42B0-94D0-849A755AF2EC}
+	EndGlobalSection
+EndGlobal

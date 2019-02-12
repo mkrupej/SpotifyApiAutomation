@@ -1,0 +1,6 @@
+C:\Users\michal.krupej\Documents\SpotifyApiAutomation\SpotifyAutomation\SpotifyTest\bin\Debug\SpotifyTest.exe.config
+C:\Users\michal.krupej\Documents\SpotifyApiAutomation\SpotifyAutomation\SpotifyTest\bin\Debug\SpotifyTest.exe
+C:\Users\michal.krupej\Documents\SpotifyApiAutomation\SpotifyAutomation\SpotifyTest\bin\Debug\SpotifyTest.pdb
+C:\Users\michal.krupej\Documents\SpotifyApiAutomation\SpotifyAutomation\SpotifyTest\obj\Debug\SpotifyTest.csproj.CoreCompileInputs.cache
+C:\Users\michal.krupej\Documents\SpotifyApiAutomation\SpotifyAutomation\SpotifyTest\obj\Debug\SpotifyTest.exe
+C:\Users\michal.krupej\Documents\SpotifyApiAutomation\SpotifyAutomation\SpotifyTest\obj\Debug\SpotifyTest.pdb

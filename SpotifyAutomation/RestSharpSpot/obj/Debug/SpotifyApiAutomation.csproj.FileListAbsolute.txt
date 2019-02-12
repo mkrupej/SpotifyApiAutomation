@@ -1,0 +1,13 @@
+C:\Users\michal.krupej\Documents\SpotifyApiAutomation\SpotifyAutomation\RestSharpSpot\bin\Debug\RestSharpSpot.exe.config
+C:\Users\michal.krupej\Documents\SpotifyApiAutomation\SpotifyAutomation\RestSharpSpot\bin\Debug\RestSharpSpot.exe
+C:\Users\michal.krupej\Documents\SpotifyApiAutomation\SpotifyAutomation\RestSharpSpot\bin\Debug\RestSharpSpot.pdb
+C:\Users\michal.krupej\Documents\SpotifyApiAutomation\SpotifyAutomation\RestSharpSpot\bin\Debug\RestSharp.dll
+C:\Users\michal.krupej\Documents\SpotifyApiAutomation\SpotifyAutomation\RestSharpSpot\bin\Debug\WebDriver.dll
+C:\Users\michal.krupej\Documents\SpotifyApiAutomation\SpotifyAutomation\RestSharpSpot\bin\Debug\WebDriver.Support.dll
+C:\Users\michal.krupej\Documents\SpotifyApiAutomation\SpotifyAutomation\RestSharpSpot\bin\Debug\RestSharp.xml
+C:\Users\michal.krupej\Documents\SpotifyApiAutomation\SpotifyAutomation\RestSharpSpot\bin\Debug\WebDriver.xml
+C:\Users\michal.krupej\Documents\SpotifyApiAutomation\SpotifyAutomation\RestSharpSpot\bin\Debug\WebDriver.Support.xml
+C:\Users\michal.krupej\Documents\SpotifyApiAutomation\SpotifyAutomation\RestSharpSpot\obj\Debug\SpotifyApiAutomation.csproj.CoreCompileInputs.cache
+C:\Users\michal.krupej\Documents\SpotifyApiAutomation\SpotifyAutomation\RestSharpSpot\obj\Debug\SpotifyApiAutomation.csproj.CopyComplete
+C:\Users\michal.krupej\Documents\SpotifyApiAutomation\SpotifyAutomation\RestSharpSpot\obj\Debug\RestSharpSpot.exe
+C:\Users\michal.krupej\Documents\SpotifyApiAutomation\SpotifyAutomation\RestSharpSpot\obj\Debug\RestSharpSpot.pdb
