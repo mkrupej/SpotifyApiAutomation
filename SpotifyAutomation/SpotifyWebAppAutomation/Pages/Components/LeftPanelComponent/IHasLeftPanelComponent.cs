@@ -2,6 +2,6 @@
 {
     public interface IHasLeftPanelComponent
     {
-        LeftPanelComponent LeftPanel { get;  }
+        LeftPanelComponent LeftPanel { get; }
     }
 }

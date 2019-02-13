@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace RestSharpSpot.API
+﻿namespace RestSharpSpot.API
 {
     public class BaseApi
     {

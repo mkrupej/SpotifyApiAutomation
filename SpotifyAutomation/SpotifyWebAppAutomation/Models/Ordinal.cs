@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace SpotifyWebAppAutomation.Models
+﻿namespace SpotifyWebAppAutomation.Models
 {
     public enum Ordinal
     {
