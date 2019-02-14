@@ -49,12 +49,8 @@ namespace SpotifyWebAppAutomation.Pages
             }
         }
 
-        private IReadOnlyCollection<IWebElement> GetRecentlyPlayedItems => Driver.Instance.FindElements(By.XPath("//h2[text() = 'RECENTLY PLAYED']/following-sibling::ul/descendant::a"));
-
-        //public PlaylistPage GetRecentlyPlayed(int index)
-        //{
-        //    GetRecentlyPlayedItems.ElementAt(index).Click();
-        //    return new PlaylistPage();
-        //}
+        private List<string> GetRecentlyPlayedItemTitles => Driver.Instance.FindElements(By.XPath("//h2[text() = 'RECENTLY PLAYED']/following-sibling::ul/descendant::a"))
+            .Select(x => x.Text)
+            .ToList();
     }
 }

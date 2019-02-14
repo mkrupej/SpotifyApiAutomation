@@ -1,8 +1,6 @@
-using SpotifyWebAppAutomation.Pages;
-using System;
-using SpotifyWebAppAutomation.Models;
 using SpotifyWebAppAutomation.Steps;
-using OpenQA.Selenium;
+using System;
+using System.Collections.Generic;
 
 namespace SpotifyWebAppAutomation
 {
@@ -46,6 +44,9 @@ namespace SpotifyWebAppAutomation
             playerControlSteps.Play();
 
             playerControlSteps.SetSongProgress(40);
+
+            IList<int> list = new List<int>();
+
             //var homePage = new HomePage(loginPage)
             Console.WriteLine("passed");
             Console.ReadKey();

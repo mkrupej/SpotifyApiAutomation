@@ -1,5 +1,4 @@
-﻿using SpotifyWebAppAutomation.Pages;
-using TechTalk.SpecFlow;
+﻿using TechTalk.SpecFlow;
 
 namespace SpotifyWebAppAutomation.Steps
 {

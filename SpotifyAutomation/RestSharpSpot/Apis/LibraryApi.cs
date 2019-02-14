@@ -1,7 +1,6 @@
 ﻿using RestSharp;
 using RestSharpSpot.Api.Objects;
 using RestSharpSpot.API;
-using System;
 using System.Collections.Generic;
 
 namespace RestSharpSpot.Api.Services
