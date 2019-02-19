@@ -55,6 +55,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Management\ApiManager.cs" />
     <Compile Include="Model\Album.cs" />
     <Compile Include="Model\AlbumsPagingWrapper.cs" />
     <Compile Include="Model\Artist.cs" />

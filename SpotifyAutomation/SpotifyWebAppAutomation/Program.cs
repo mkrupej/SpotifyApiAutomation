@@ -9,8 +9,8 @@ namespace SpotifyWebAppAutomation
         private static void Main(string[] args)
         {
             Driver.Initialize();
-            var loginPage = new LoginSteps();
-            loginPage.LoginAsUser("mkrupej");
+            var loginSteps = new LoginSteps();
+            loginSteps.LoginAsUser("mkrupej");
 
             System.Threading.Thread.Sleep(5000);
 
@@ -38,7 +38,7 @@ namespace SpotifyWebAppAutomation
             //    .LeftPanel
             //    .GoToRecentlyPlayedItem(Ordinal.fifth);
 
-            var playerControlSteps = new PlayerControlSteps(loginPage.Pages);
+            var playerControlSteps = new PlayerControlSteps(loginSteps.PagesContext);
 
             playerControlSteps.Pause();
             playerControlSteps.Play();

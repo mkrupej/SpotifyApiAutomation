@@ -1,3 +1,4 @@
+C:\Users\michal.krupej\Documents\SpotifyApiAutomation\SpotifyAutomation\SpotifyWebAppAutomation\obj\Debug\SpotifyWebAppAutomation.csproj.CoreCompileInputs.cache
 C:\Users\michal.krupej\Documents\SpotifyApiAutomation\SpotifyAutomation\SpotifyWebAppAutomation\bin\Debug\SpotifyWebAppAutomation.exe.config
 C:\Users\michal.krupej\Documents\SpotifyApiAutomation\SpotifyAutomation\SpotifyWebAppAutomation\bin\Debug\SpotifyWebAppAutomation.exe
 C:\Users\michal.krupej\Documents\SpotifyApiAutomation\SpotifyAutomation\SpotifyWebAppAutomation\bin\Debug\SpotifyWebAppAutomation.pdb
@@ -14,8 +15,7 @@ C:\Users\michal.krupej\Documents\SpotifyApiAutomation\SpotifyAutomation\SpotifyW
 C:\Users\michal.krupej\Documents\SpotifyApiAutomation\SpotifyAutomation\SpotifyWebAppAutomation\bin\Debug\nunit.framework.xml
 C:\Users\michal.krupej\Documents\SpotifyApiAutomation\SpotifyAutomation\SpotifyWebAppAutomation\bin\Debug\WebDriver.xml
 C:\Users\michal.krupej\Documents\SpotifyApiAutomation\SpotifyAutomation\SpotifyWebAppAutomation\bin\Debug\WebDriver.Support.xml
-C:\Users\michal.krupej\Documents\SpotifyApiAutomation\SpotifyAutomation\SpotifyWebAppAutomation\obj\Debug\SpotifyWebAppAutomation.csprojAssemblyReference.cache
-C:\Users\michal.krupej\Documents\SpotifyApiAutomation\SpotifyAutomation\SpotifyWebAppAutomation\obj\Debug\SpotifyWebAppAutomation.csproj.CoreCompileInputs.cache
 C:\Users\michal.krupej\Documents\SpotifyApiAutomation\SpotifyAutomation\SpotifyWebAppAutomation\obj\Debug\SpotifyWebAppAutomation.csproj.CopyComplete
 C:\Users\michal.krupej\Documents\SpotifyApiAutomation\SpotifyAutomation\SpotifyWebAppAutomation\obj\Debug\SpotifyWebAppAutomation.exe
 C:\Users\michal.krupej\Documents\SpotifyApiAutomation\SpotifyAutomation\SpotifyWebAppAutomation\obj\Debug\SpotifyWebAppAutomation.pdb
+C:\Users\michal.krupej\Documents\SpotifyApiAutomation\SpotifyAutomation\SpotifyWebAppAutomation\obj\Debug\SpotifyWebAppAutomation.csprojAssemblyReference.cache

@@ -9,23 +9,23 @@ namespace SpotifyWebAppAutomation.Steps
 
         public PlayerControlSteps(PageObjectManager pages)
         {
-            Pages = pages;
-            playerBar = Pages.CurrentPage.PlayerBar;
+            PagesContext = pages;
+            playerBar = PagesContext.CurrentPage.PlayerBar;
         }
 
         public void GoToCurrentAlbum()
         {
-            Pages.CurrentPage = playerBar.GoToCurrentAlbum();
+            PagesContext.CurrentPage = playerBar.GoToCurrentAlbum();
         }
 
         public void GoToCurrentPlaylist()
         {
-            Pages.CurrentPage = playerBar.GoToCurrentPlaylist();
+            PagesContext.CurrentPage = playerBar.GoToCurrentPlaylist();
         }
 
         public void GoToCurrentArtist()
         {
-            Pages.CurrentPage = playerBar.GoToCurrentArtist();
+            PagesContext.CurrentPage = playerBar.GoToCurrentArtist();
         }
 
         public void SaveCurrentSongToLibrary()
@@ -76,6 +76,16 @@ namespace SpotifyWebAppAutomation.Steps
             {
                 playerBar.Pause();
             }
+        }
+
+        public bool IsPaused()
+        {
+            return playerBar.IsSongPaused;
+        }
+
+        public bool IsPlaying()
+        {
+            return playerBar.IsSongPlayed;
         }
 
         public void SetSongProgress(double progressPercentage)

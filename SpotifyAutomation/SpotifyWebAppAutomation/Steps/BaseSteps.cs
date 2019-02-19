@@ -2,6 +2,6 @@
 {
     public abstract class BaseSteps
     {
-        public PageObjectManager Pages { get; set; }
+        public PageObjectManager PagesContext { get; set; }
     }
 }

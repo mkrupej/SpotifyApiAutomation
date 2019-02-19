@@ -1,5 +1,6 @@
 using RestSharpSpot.Api.Model.Enum;
 using RestSharpSpot.Api.Services;
+using RestSharpSpot.Management;
 using RestSharpSpot.Miscellaneous;
 using System;
 
@@ -9,15 +10,10 @@ namespace RestSharpSpot
     {
         private static void Main(string[] args)
         {
-            if (args == null)
-            {
-                throw new ArgumentNullException(nameof(args));
-            }
+            var apiAccessData = ApiManager.GetApiAccessData();
+            PlayerApi sp = new PlayerApi(apiAccessData.Item1, apiAccessData.Item2, apiAccessData.Item3, apiAccessData.Item4);
+            sp.Pause();
 
-            string key = (new KeyManager()).Key;
-            const string client_id = "5188c6210ac540a5ab12812e26060f32";
-            const string response_type = "code";
-            const string redirect_uri = "http://spotify.com";
             /**
             track ids "029l68p4fPYZeAgJ5c60zR" "49X0LAl6faAusYq02PRAY6"
 
@@ -48,8 +44,8 @@ namespace RestSharpSpot
             var a = sp2.GetSeveralTracks("11dFghVXANMlKmJXsNCbNl,3n3Ppam7vgaVa1iaRUc9Lp"); **/
             //var a = sp2.DeleteTrackForCurrentUser("7ouMYWpwJ422jRcDASZB7P,4VqPOruhp5EdPBeR92t6lQ,2takcwOaAZWiXQijPHIx7B");
 
-            var sp2 = new SearchApi(client_id, key, response_type, redirect_uri);
-            var s = sp2.Search("U2", searchType: SearchType.album | SearchType.artist);
+            // var sp2 = new SearchApi(client_id, key, response_type, redirect_uri);
+            //var s = sp2.Search("U2", searchType: SearchType.album | SearchType.artist);
         }
     }
 }

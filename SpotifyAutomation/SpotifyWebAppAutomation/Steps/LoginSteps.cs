@@ -6,14 +6,14 @@ namespace SpotifyWebAppAutomation.Steps
     {
         public LoginSteps()
         {
-            Pages = new PageObjectManager();
+            PagesContext = new PageObjectManager();
         }
 
         [Given(@"I have logged as ""(.*)""}")]
         public void LoginAsUser(string username)
         {
-            Pages.LoginPage.Goto();
-            Pages.CurrentPage = Pages.LoginPage.LoginAs(username).Login();
+            PagesContext.LoginPage.Goto();
+            PagesContext.CurrentPage = PagesContext.LoginPage.LoginAs(username).Login();
         }
     }
 }

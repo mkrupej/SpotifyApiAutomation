@@ -31,7 +31,7 @@ namespace SpotifyWebAppAutomation.Pages
 
         public BasePage GoToRecentlyPlayedItem(Ordinal recentlyPlayedItemIndex)
         {
-            var recentlyPlayed = GetRecentlyPlayedItems.ElementAt((int)recentlyPlayedItemIndex);
+            var recentlyPlayed = GetRecentlyPlayedItemTitles.ElementAt((int)recentlyPlayedItemIndex);
 
             switch (recentlyPlayed.FindElement(By.TagName("span")).Text)
             {
@@ -49,8 +49,8 @@ namespace SpotifyWebAppAutomation.Pages
             }
         }
 
-        private List<string> GetRecentlyPlayedItemTitles => Driver.Instance.FindElements(By.XPath("//h2[text() = 'RECENTLY PLAYED']/following-sibling::ul/descendant::a"))
-            .Select(x => x.Text)
+        private List<IWebElement> GetRecentlyPlayedItemTitles => Driver.Instance.FindElements(By.XPath("//h2[text() = 'RECENTLY PLAYED']/following-sibling::ul/descendant::a"))
+            .Select(x => x)
             .ToList();
     }
 }
